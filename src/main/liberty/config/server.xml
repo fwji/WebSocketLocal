@@ -1,0 +1,11 @@
+<server description="Sample Servlet server">
+    <featureManager>
+        <feature>servlet-4.0</feature>
+        <feature>websocket-1.1</feature>
+    </featureManager>
+
+    <httpEndpoint httpPort="${default.http.port}" 
+    httpsPort="${default.https.port}" id="defaultHttpEndpoint"  host="*" />
+
+    <webApplication id="WebSocketLocal" location="WebSocketLocal.war" contextRoot="${app.context.root}" />
+</server>
