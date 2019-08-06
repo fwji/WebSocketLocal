@@ -5,7 +5,7 @@ A local websocket example with Open Liberty
 
 1. clone the repo
 ```
-git clonet git@github.com:fwji/WebSocketLocal.git
+git clone git@github.com:fwji/WebSocketLocal.git
 ```
 
 2. Start virtual ship and targets client
